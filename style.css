@@ -51,4 +51,97 @@
 .bg-primary{
     background-color: red;
     color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.service-container{
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"), 
+    linear-gradient( rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 5px;
+    
+}
+.service-description{
+    width: 50%;
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.two-box{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+
+}
+.btn2{
+    margin-bottom: 20px;
+}
+.services-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: grey;
+}
+.left-side-container>ol>li{
+    color: rgb(187, 173, 173);
+    font-size: 18px;
+    
+}
+.left-side-container>ol{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: brown;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
 }
