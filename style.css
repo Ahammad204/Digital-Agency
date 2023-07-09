@@ -144,4 +144,38 @@
     border-radius: 10px;
     margin-top: -30px;
     align-items: center;
+    color: antiquewhite;
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+
+}
+.card{
+    width: 220px;
+    height: 350px;
+    /* background-color: aqua; */
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.blog-container{
+    width: 80%;
+    margin: auto;
+    background-color: bisque;
+    padding: 10px;
 }
